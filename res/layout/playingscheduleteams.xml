@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+    
+	<ScrollView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical"
+		    android:background="@android:color/white" >
+	    
+		    <include
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    layout="@layout/actionbar" />
+		
+		    <TableLayout
+		        android:id="@+id/tableLayout1"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:stretchColumns="1,2"
+		        android:paddingTop="20dp">
+				
+		        <TableRow
+		            android:id="@+id/tableRow1">
+		            
+					<Button
+			        android:id="@+id/btnDamen1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_column="1"></Button>
+					
+		
+					<Button 
+					android:id="@+id/btnDamen2"
+					android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"></Button>
+		        </TableRow>
+		
+		        <TableRow
+		            android:id="@+id/tableRow2"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content">
+					
+					<Button
+			        android:id="@+id/btnHerren1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_column="1"></Button>
+					
+					<Button
+			        android:id="@+id/btnHerren2"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"></Button>
+					
+		        </TableRow>
+		
+		        <TableRow
+		            android:id="@+id/tableRow3"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content" >
+					
+					<Button
+			        android:id="@+id/btnHerren3"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_column="1"></Button>
+					
+					<Button
+			        android:id="@+id/btnJuniorinnen1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"></Button>
+					
+		        </TableRow>
+		
+		        <TableRow
+		            android:id="@+id/tableRow4"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content" >
+					
+					<Button
+			        android:id="@+id/btnJuniorinnen2"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_column="1"></Button>
+					
+					<Button
+			        android:id="@+id/btnJuniorinnen3"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"></Button>
+					
+		        </TableRow>
+		        
+		        <TableRow
+		            android:id="@+id/tableRow5"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content" >
+					
+					<Button
+			        android:id="@+id/btnJunioren1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_column="1"></Button>
+							
+		        </TableRow>
+		        
+		        
+		    </TableLayout>
+
+		    <Button
+		        android:id="@+id/btnNextGames"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"></Button>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

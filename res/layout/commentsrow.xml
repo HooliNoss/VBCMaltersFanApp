@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+        
+    <LinearLayout                
+        android:id="@+id/Lin2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        
+		<TextView 
+     		android:layout_height="wrap_content"
+			android:layout_width="wrap_content" 
+			android:id="@+id/txt_creator"
+			android:textColor="@android:color/black" 
+			android:textStyle="bold">
+		</TextView>		
+			    
+	<TextView 
+	    android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:id="@+id/txt_date"
+		android:layout_gravity="right"
+   	    android:gravity="right"
+		android:textColor="@android:color/black">
+	    
+	</TextView>
+        
+    </LinearLayout>
+    
+	<LinearLayout 
+		android:id="@+id/Lin3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Lin2"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp">
+	
+	    
+	    <TextView 
+	        android:layout_height="wrap_content"
+			android:layout_width="wrap_content" 
+			android:textColor="@android:color/black"
+			android:id="@+id/txt_body">
+	        
+	    </TextView>
+	</LinearLayout>
+</RelativeLayout>

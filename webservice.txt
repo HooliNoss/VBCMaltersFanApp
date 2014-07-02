@@ -1,0 +1,4 @@
+getTeamDetailedResponse{team=TeamDetailed{ID_team=17481; ID_team_core=2958; Caption=VBC Malters 2; Gender=f; club_ID=911360; ClubCaption=VBC Malters; LeagueCaption=5L; OrganisationCaption=SVRI; }; }
+
+
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:getTeamDetailedResponse><team xsi:type="ns1:TeamDetailed"><ID_team xsi:type="xsd:int">17481</ID_team><ID_team_core xsi:type="xsd:int">2958</ID_team_core><Caption xsi:type="xsd:string">VBC Malters 2</Caption><Gender xsi:type="xsd:string">f</Gender><club_ID xsi:type="xsd:int">911360</club_ID><ClubCaption xsi:type="xsd:string">VBC Malters</ClubCaption><LeagueCaption xsi:type="xsd:string">5L</LeagueCaption><OrganisationCaption xsi:type="xsd:string">SVRI</OrganisationCaption></team></ns1:getTeamDetailedResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+    
+    <include
+	    android:id="@+id/actionbar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/actionbar" />
+       
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@+id/actionbar"
+	    android:orientation="vertical"
+	    android:background="@android:color/white"
+	    android:paddingLeft="10dp" 
+	    android:paddingRight="10dp">
+
+	    <TextView
+	        android:id="@+id/lblCreator"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Ersteller"
+	        android:textColor="@android:color/black"
+	        android:paddingTop="10dp" />
+	
+	    <EditText
+	        android:id="@+id/txtCreator"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/lblCreator"
+	        android:inputType="text" 
+			android:textColor="@android:color/black">
+	        <requestFocus />
+	        
+	    </EditText>
+	    
+	   	<TextView
+	       android:id="@+id/lblBody"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_below="@+id/txtCreator"
+	       android:text="Text" 
+		   android:textColor="@android:color/black"
+	       android:paddingTop="10dp"/>
+	
+	   	<LinearLayout 
+	   	   android:id="@+id/lin01"
+	   	   android:layout_below="@+id/lblBody"
+	       android:layout_width="fill_parent"
+	       android:layout_height="fill_parent"
+	       android:orientation="horizontal">
+	   	    
+		   	<EditText
+		   	    android:id="@+id/txtBody"
+		   	    android:layout_width="fill_parent"
+		   	    android:layout_height="wrap_content"
+		   	    android:maxHeight="200dp"
+		   	    android:inputType="textMultiLine"
+				android:textColor="@android:color/black"
+		   	    android:layout_weight="70"/>
+		   	
+		   	<Button
+		        android:id="@+id/btnSenden"
+		        android:layout_width="wrap_content"
+		        android:minWidth="100dp"
+		        android:layout_height="wrap_content"
+		        android:text="Senden"
+		        android:layout_weight="30"/>   
+	   	</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>
