@@ -18,8 +18,8 @@ public class Notification
 		    public void run() 
 		    {	
 		        DefaultHttpClient httpClient = new DefaultHttpClient();
-		        HttpPost httpPost = new HttpPost("http://hslu.ath.cx/boli/SendPushNotification.php");
-		        //HttpPost httpPost = new HttpPost("http://hslu.ath.cx/boli/TestToMyDevice.php");
+		        HttpPost httpPost = new HttpPost("http://volley.pulse-guild.ath.cx/SendPushNotification.php");
+		        //HttpPost httpPost = new HttpPost("http://volley.pulse-guild.ath.cx/TestToMyDevice.php");
 
 		        try 
 		        {

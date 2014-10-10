@@ -123,7 +123,7 @@ public class UploadImage extends Activity
 				    			
 				    				HttpPost httppost = new
 				    			
-				    				HttpPost("http://hslu.ath.cx/boli/UploadImage.php");
+				    				HttpPost("http://volley.pulse-guild.ath.cx/UploadImage.php");
 				    			
 				    				httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 				    			

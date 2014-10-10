@@ -150,7 +150,7 @@ public class ShowImages extends Activity
 	                    //Thread.sleep(params[0]);
 	                    // HERE I'VE PUT ALL THE FUNCTIONS THAT WORK FOR ME
 		          	   	  
-		            	m_Drawable = LoadImageFromWebOperations("http://hslu.ath.cx/boli/GetImage.php?imgOffset=" + m_Offset);  
+		            	m_Drawable = LoadImageFromWebOperations("http://volley.pulse-guild.ath.cx/GetImage.php?imgOffset=" + m_Offset);  
 	                }
 	                catch (Exception e)
 	                {
@@ -314,7 +314,7 @@ public class ShowImages extends Activity
 	{
 	      // Create a new HttpClient and Post Header
 	      final HttpClient httpclient = new DefaultHttpClient();
-	      final HttpPost httppost = new HttpPost("http://hslu.ath.cx/boli/DeleteImage.php");
+	      final HttpPost httppost = new HttpPost("http://volley.pulse-guild.ath.cx/DeleteImage.php");
      
         // Add your data
         List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);

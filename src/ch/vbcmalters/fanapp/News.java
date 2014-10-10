@@ -56,7 +56,7 @@ public class News extends Activity
     
 	
 	// All static variables
-	private final String URL = "http://hslu.ath.cx/boli/GetNews.php";
+	private final String URL = "http://volley.pulse-guild.ath.cx/GetNews.php";
 	  // XML node keys
 	private final String KEY_ITEM = "entry"; // parent node
 	
@@ -304,7 +304,7 @@ public class News extends Activity
 			  
 		      // Create a new HttpClient and Post Header
 		      final HttpClient httpclient = new DefaultHttpClient();
-		      final HttpPost httppost = new HttpPost("http://hslu.ath.cx/boli/DeleteNews.php");
+		      final HttpPost httppost = new HttpPost("http://volley.pulse-guild.ath.cx/DeleteNews.php");
 	       	  
 		      
 		      // Get Attribute name of the HashMap

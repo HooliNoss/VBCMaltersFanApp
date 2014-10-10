@@ -13,8 +13,6 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 
-import com.sun.xml.internal.bind.v2.model.core.NonElement;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -126,7 +124,7 @@ public class PostComment extends Activity{
 		          	   	  
 	                	// Create a new HttpClient and Post Header
 	                    httpclient = new DefaultHttpClient();
-	                    httppost = new HttpPost("http://hslu.ath.cx/boli/SetComment.php");
+	                    httppost = new HttpPost("http://volley.pulse-guild.ath.cx/SetComment.php");
 	                    
 	                    String creator = txtCreator.getText().toString();
 	                    String meldung = txtBody.getText().toString();

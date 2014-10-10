@@ -136,11 +136,14 @@ public class C2DMBroadcastReceiver extends BroadcastReceiver {
     		{
 	            // Create a new HttpClient and Post Header
 	            HttpClient httpclient = new DefaultHttpClient();
-	            HttpPost httppost = new HttpPost("http://hslu.ath.cx/boli/RegisterRegistrationID.php");
+	            HttpPost httppost = new HttpPost("http://volley.pulse-guild.ath.cx/RegisterRegistrationID.php");
+	            
+	            DeviceUuidFactory uuidFactory = new DeviceUuidFactory(this.context);
 	            
 	            // Add your data
 	            List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
 	            nameValuePairs.add(new BasicNameValuePair("registrationID", newRegKey));
+	            nameValuePairs.add(new BasicNameValuePair("uniqueDeviceID", uuidFactory.getDeviceUuid().toString()));
 	            httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 	            
 	            

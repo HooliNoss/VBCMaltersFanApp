@@ -7,8 +7,8 @@ import org.w3c.dom.NodeList;
 public class CheckPermission {
 	
 	// All static variables
-	private final String URLAdmin = "http://hslu.ath.cx/boli/CheckAdminPermission.php?name=";
-	private final String URLAuthor = "http://hslu.ath.cx/boli/CheckAuthorPermission.php?name=";
+	private final String URLAdmin = "http://volley.pulse-guild.ath.cx/CheckAdminPermission.php?name=";
+	private final String URLAuthor = "http://volley.pulse-guild.ath.cx/CheckAuthorPermission.php?name=";
 	  // XML node keys
 	private final String KEY_ITEM = "entry"; // parent node
 	

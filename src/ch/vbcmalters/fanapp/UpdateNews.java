@@ -154,7 +154,7 @@ public class UpdateNews extends Activity {
 		          	   	  
 	                	// Create a new HttpClient and Post Header
 	                    httpclient = new DefaultHttpClient();
-	                    httppost = new HttpPost("http://hslu.ath.cx/boli/UpdateNews.php");
+	                    httppost = new HttpPost("http://volley.pulse-guild.ath.cx/UpdateNews.php");
 	                    
 	                    String titel = txtTitle.getText().toString();
 	                    String meldung = txtBody.getText().toString();

@@ -45,7 +45,7 @@ public class Comments extends Activity{
 	private ArrayList<HashMap<String, Object>> myList;
 	
 	// All static variables
-	private final String URL = "http://hslu.ath.cx/boli/GetComments.php?commentID=";
+	private final String URL = "http://volley.pulse-guild.ath.cx/GetComments.php?commentID=";
 	  // XML node keys
 	private final String KEY_ITEM = "entry"; // parent node
 	
@@ -328,7 +328,7 @@ public class Comments extends Activity{
 			  
 		      // Create a new HttpClient and Post Header
 		      final HttpClient httpclient = new DefaultHttpClient();
-		      final HttpPost httppost = new HttpPost("http://hslu.ath.cx/boli/DeleteComment.php");
+		      final HttpPost httppost = new HttpPost("http://volley.pulse-guild.ath.cx/DeleteComment.php");
 	       	  
 		      
 		      // Get Attribute name of the HashMap

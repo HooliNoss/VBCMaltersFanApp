@@ -40,6 +40,7 @@ public class VBCMaltersFanAppActivity extends Activity {
         {
 	        init();
 	        
+	        //String authKey = AuthenticationUtil.getToken("bachmann.stefan.ma@gmail.com", "stefan1989");
 			
 	    	Intent registrationIntent = new Intent("com.google.android.c2dm.intent.REGISTER");
 	    	
@@ -51,7 +52,8 @@ public class VBCMaltersFanAppActivity extends Activity {
         }
         catch(Exception ex)
         {
-        	
+        	String asdf = ex.getMessage();
+        	String asdfasdf = asdf;
         }
 
         new AsyncTask<Integer, Integer, Boolean>()

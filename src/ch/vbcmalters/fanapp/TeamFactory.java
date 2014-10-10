@@ -13,15 +13,15 @@ public class TeamFactory
 	{
 		ArrayList<Team> teamList = new ArrayList<Team>();
 		
-		teamList.add(new Team("Damen 1", 19246, 7004));
-		teamList.add(new Team("Damen 2", 19731, 7002));
-		teamList.add(new Team("Herren 1", 20302, 6956));
-		teamList.add(new Team("Herren 2", 19936, 7012));
-		teamList.add(new Team("Herren 3", 19943, 7014));
-		teamList.add(new Team("Juniorinnen 1", 19826, 7016));
-		teamList.add(new Team("Juniorinnen 2", 19816, 7009));
-		teamList.add(new Team("Juniorinnen 3", 20525, 7011));
-		teamList.add(new Team("Junioren 1", 20352, 7089));
+		teamList.add(new Team("Damen 1", 23026, 8284));
+		teamList.add(new Team("Damen 2", 23437, 8285));
+		teamList.add(new Team("Herren 1", 23914, 8753));
+		teamList.add(new Team("Herren 2", 23585, 8302));
+		teamList.add(new Team("Herren 3", 23590, 8305));
+		teamList.add(new Team("Juniorinnen 1", 23507, 8294));
+		teamList.add(new Team("Juniorinnen 2", 23499, 8298));
+		teamList.add(new Team("Juniorinnen 3", 23738, 8300));
+		teamList.add(new Team("Junioren 1", 24138, 8360));
 		
 		return teamList;
 	}
